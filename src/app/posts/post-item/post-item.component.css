@@ -1,0 +1,13 @@
+.post__item {
+  display: flex;
+  padding: 15px;
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post__btns {
+  display: flex;
+}
