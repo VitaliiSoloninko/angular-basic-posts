@@ -22,4 +22,7 @@ export class PostsComponent {
     { id: 2, title: 'None 2', body: 'Body 2' },
     { id: 3, title: 'Node 3', body: 'Body 3' },
   ];
+
+  title: string = 'title ts';
+  body: string = 'body ts';
 }
