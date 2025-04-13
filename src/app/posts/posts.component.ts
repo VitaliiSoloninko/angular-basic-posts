@@ -3,10 +3,16 @@ import { Component } from '@angular/core';
 import { IPost } from '../../models/IPost';
 import { PostItemComponent } from './post-item/post-item.component';
 import { PostListComponent } from './post-list/post-list.component';
+import { PostTitleComponent } from './post-title/post-title.component';
 
 @Component({
   selector: 'app-posts',
-  imports: [PostItemComponent, CommonModule, PostListComponent],
+  imports: [
+    PostItemComponent,
+    CommonModule,
+    PostListComponent,
+    PostTitleComponent,
+  ],
   templateUrl: './posts.component.html',
   styleUrl: './posts.component.css',
 })
